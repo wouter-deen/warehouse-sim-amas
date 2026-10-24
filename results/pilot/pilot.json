@@ -1,0 +1,58 @@
+{
+  "candidates": {
+    "v4_t48_i5": {
+      "arrival_interval": 5.0,
+      "auction_interval": 4,
+      "bundle_batch": 3,
+      "deadlock_window": 100,
+      "dropoff_ticks": 1,
+      "max_ticks": 1600,
+      "pickup_ticks": 1,
+      "planning_horizon": 192,
+      "queue_max": 3,
+      "total_tasks": 48,
+      "vehicles": 4
+    },
+    "v4_t48_i8": {
+      "arrival_interval": 8.0,
+      "auction_interval": 4,
+      "bundle_batch": 3,
+      "deadlock_window": 100,
+      "dropoff_ticks": 1,
+      "max_ticks": 1600,
+      "pickup_ticks": 1,
+      "planning_horizon": 192,
+      "queue_max": 3,
+      "total_tasks": 48,
+      "vehicles": 4
+    }
+  },
+  "layouts": [
+    "A",
+    "B"
+  ],
+  "package_versions": {
+    "matplotlib": "3.11.2",
+    "mesa": "3.5.1",
+    "numpy": "2.5.4",
+    "python": "3.13.16",
+    "scipy": "1.18.1",
+    "warehouse-agents-simulation": "0.1.0"
+  },
+  "scenarios": [
+    "D0",
+    "D4"
+  ],
+  "seeds": [
+    0,
+    1
+  ],
+  "selection": "Manual feasibility review across all strategies; no automatic selection",
+  "source_hash": "fd2940590c92a46d7e2b5887702991113d91c0274c7525c655d61e49b0b67aa2",
+  "strategies": [
+    "S1",
+    "S2",
+    "S4",
+    "S8"
+  ]
+}

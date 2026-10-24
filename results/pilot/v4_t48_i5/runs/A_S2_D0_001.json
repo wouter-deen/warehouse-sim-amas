@@ -1,0 +1,916 @@
+{
+  "_experiment": {
+    "content_hash": "fdb658c84c113e7ab2730f7ff0e0fb7e6fab7882b2a183bd1082b32857fc9255",
+    "experiment_fingerprint": "1a7af22aee216b9fec7ca2c6f1fed68f99186719d1d1790c320fb67a83764e9f",
+    "run_fingerprint": "73a10c1c2081a2401f5f240b7a42c3a3b8535a521660b8d8ab4ad4003a830226"
+  },
+  "config": {
+    "arrival_interval": 5.0,
+    "auction_interval": 4,
+    "bundle_batch": 3,
+    "deadlock_window": 100,
+    "dropoff_ticks": 1,
+    "max_ticks": 1600,
+    "pickup_ticks": 1,
+    "planning_horizon": 192,
+    "queue_max": 3,
+    "total_tasks": 48,
+    "vehicles": 4
+  },
+  "disruptions": [],
+  "layout": "A",
+  "message_trace": [],
+  "messages": {
+    "by_performative": {
+      "ACCEPT_PROPOSAL": 48,
+      "CFP": 564,
+      "INFORM": 246,
+      "PROPOSE": 54,
+      "REFUSE": 510,
+      "REJECT_PROPOSAL": 6,
+      "REQUEST": 102
+    },
+    "by_sender": {
+      "agv:0": 152,
+      "agv:1": 224,
+      "agv:2": 154,
+      "agv:3": 232,
+      "allocator": 618,
+      "customer": 48,
+      "planner": 102
+    }
+  },
+  "metrics": {
+    "accepted_disruptions": 0,
+    "communication_volume": 1530,
+    "completed_tasks": 48,
+    "deadlock_episodes": 0,
+    "detected_disruptions": 0,
+    "disruption_proposals": 0,
+    "empty_travel_ratio": 0.4942166140904311,
+    "execution_failures": 0,
+    "failed_replans": 0,
+    "idle_time": 176,
+    "load_balance_cv": 0.10206207261596574,
+    "makespan": 307,
+    "mean_completion_time": 42.75,
+    "pickup_delay": 31.666666666666668,
+    "replans": 0,
+    "simulation_ticks": 307,
+    "skipped_disruptions": 0,
+    "sum_of_costs": 1052,
+    "sum_of_moves": 951,
+    "throughput": 0.1563517915309446,
+    "unfinished_tasks": 0,
+    "utilization": 0.8566775244299675
+  },
+  "scenario": "D0",
+  "seed": 1,
+  "strategy": "S2",
+  "tasks": [
+    {
+      "assigned_tick": 0,
+      "assigned_to": 0,
+      "created": 0,
+      "dropoff": [
+        1,
+        10
+      ],
+      "dropoff_tick": 17,
+      "id": 0,
+      "pickup": [
+        4,
+        1
+      ],
+      "pickup_tick": 4
+    },
+    {
+      "assigned_tick": 8,
+      "assigned_to": 1,
+      "created": 5,
+      "dropoff": [
+        6,
+        10
+      ],
+      "dropoff_tick": 27,
+      "id": 1,
+      "pickup": [
+        11,
+        1
+      ],
+      "pickup_tick": 12
+    },
+    {
+      "assigned_tick": 8,
+      "assigned_to": 2,
+      "created": 6,
+      "dropoff": [
+        5,
+        11
+      ],
+      "dropoff_tick": 28,
+      "id": 2,
+      "pickup": [
+        6,
+        5
+      ],
+      "pickup_tick": 20
+    },
+    {
+      "assigned_tick": 12,
+      "assigned_to": 3,
+      "created": 11,
+      "dropoff": [
+        13,
+        9
+      ],
+      "dropoff_tick": 25,
+      "id": 3,
+      "pickup": [
+        13,
+        5
+      ],
+      "pickup_tick": 20
+    },
+    {
+      "assigned_tick": 20,
+      "assigned_to": 0,
+      "created": 12,
+      "dropoff": [
+        2,
+        9
+      ],
+      "dropoff_tick": 44,
+      "id": 4,
+      "pickup": [
+        7,
+        4
+      ],
+      "pickup_tick": 33
+    },
+    {
+      "assigned_tick": 28,
+      "assigned_to": 3,
+      "created": 16,
+      "dropoff": [
+        10,
+        11
+      ],
+      "dropoff_tick": 43,
+      "id": 5,
+      "pickup": [
+        10,
+        5
+      ],
+      "pickup_tick": 36
+    },
+    {
+      "assigned_tick": 28,
+      "assigned_to": 2,
+      "created": 26,
+      "dropoff": [
+        0,
+        11
+      ],
+      "dropoff_tick": 47,
+      "id": 6,
+      "pickup": [
+        5,
+        5
+      ],
+      "pickup_tick": 35
+    },
+    {
+      "assigned_tick": 44,
+      "assigned_to": 0,
+      "created": 28,
+      "dropoff": [
+        4,
+        10
+      ],
+      "dropoff_tick": 61,
+      "id": 7,
+      "pickup": [
+        6,
+        5
+      ],
+      "pickup_tick": 53
+    },
+    {
+      "assigned_tick": 36,
+      "assigned_to": 1,
+      "created": 34,
+      "dropoff": [
+        10,
+        12
+      ],
+      "dropoff_tick": 52,
+      "id": 8,
+      "pickup": [
+        9,
+        6
+      ],
+      "pickup_tick": 44
+    },
+    {
+      "assigned_tick": 44,
+      "assigned_to": 3,
+      "created": 43,
+      "dropoff": [
+        14,
+        9
+      ],
+      "dropoff_tick": 62,
+      "id": 9,
+      "pickup": [
+        11,
+        4
+      ],
+      "pickup_tick": 53
+    },
+    {
+      "assigned_tick": 52,
+      "assigned_to": 1,
+      "created": 43,
+      "dropoff": [
+        9,
+        11
+      ],
+      "dropoff_tick": 66,
+      "id": 10,
+      "pickup": [
+        10,
+        6
+      ],
+      "pickup_tick": 59
+    },
+    {
+      "assigned_tick": 48,
+      "assigned_to": 2,
+      "created": 47,
+      "dropoff": [
+        1,
+        9
+      ],
+      "dropoff_tick": 67,
+      "id": 11,
+      "pickup": [
+        2,
+        3
+      ],
+      "pickup_tick": 59
+    },
+    {
+      "assigned_tick": 64,
+      "assigned_to": 3,
+      "created": 52,
+      "dropoff": [
+        14,
+        12
+      ],
+      "dropoff_tick": 83,
+      "id": 12,
+      "pickup": [
+        9,
+        7
+      ],
+      "pickup_tick": 72
+    },
+    {
+      "assigned_tick": 64,
+      "assigned_to": 0,
+      "created": 60,
+      "dropoff": [
+        15,
+        11
+      ],
+      "dropoff_tick": 94,
+      "id": 13,
+      "pickup": [
+        3,
+        4
+      ],
+      "pickup_tick": 74
+    },
+    {
+      "assigned_tick": 68,
+      "assigned_to": 1,
+      "created": 68,
+      "dropoff": [
+        7,
+        10
+      ],
+      "dropoff_tick": 86,
+      "id": 14,
+      "pickup": [
+        9,
+        7
+      ],
+      "pickup_tick": 75
+    },
+    {
+      "assigned_tick": 84,
+      "assigned_to": 3,
+      "created": 73,
+      "dropoff": [
+        13,
+        10
+      ],
+      "dropoff_tick": 103,
+      "id": 15,
+      "pickup": [
+        12,
+        4
+      ],
+      "pickup_tick": 95
+    },
+    {
+      "assigned_tick": 88,
+      "assigned_to": 1,
+      "created": 75,
+      "dropoff": [
+        10,
+        10
+      ],
+      "dropoff_tick": 105,
+      "id": 16,
+      "pickup": [
+        13,
+        7
+      ],
+      "pickup_tick": 98
+    },
+    {
+      "assigned_tick": 104,
+      "assigned_to": 3,
+      "created": 78,
+      "dropoff": [
+        8,
+        11
+      ],
+      "dropoff_tick": 124,
+      "id": 17,
+      "pickup": [
+        11,
+        4
+      ],
+      "pickup_tick": 113
+    },
+    {
+      "assigned_tick": 84,
+      "assigned_to": 2,
+      "created": 82,
+      "dropoff": [
+        16,
+        9
+      ],
+      "dropoff_tick": 113,
+      "id": 18,
+      "pickup": [
+        6,
+        3
+      ],
+      "pickup_tick": 96
+    },
+    {
+      "assigned_tick": 108,
+      "assigned_to": 1,
+      "created": 83,
+      "dropoff": [
+        12,
+        10
+      ],
+      "dropoff_tick": 129,
+      "id": 19,
+      "pickup": [
+        10,
+        2
+      ],
+      "pickup_tick": 118
+    },
+    {
+      "assigned_tick": 96,
+      "assigned_to": 0,
+      "created": 84,
+      "dropoff": [
+        8,
+        9
+      ],
+      "dropoff_tick": 125,
+      "id": 20,
+      "pickup": [
+        2,
+        6
+      ],
+      "pickup_tick": 115
+    },
+    {
+      "assigned_tick": 124,
+      "assigned_to": 3,
+      "created": 105,
+      "dropoff": [
+        6,
+        9
+      ],
+      "dropoff_tick": 138,
+      "id": 21,
+      "pickup": [
+        9,
+        6
+      ],
+      "pickup_tick": 131
+    },
+    {
+      "assigned_tick": 132,
+      "assigned_to": 1,
+      "created": 109,
+      "dropoff": [
+        0,
+        9
+      ],
+      "dropoff_tick": 165,
+      "id": 22,
+      "pickup": [
+        11,
+        1
+      ],
+      "pickup_tick": 145
+    },
+    {
+      "assigned_tick": 140,
+      "assigned_to": 3,
+      "created": 115,
+      "dropoff": [
+        5,
+        10
+      ],
+      "dropoff_tick": 166,
+      "id": 23,
+      "pickup": [
+        10,
+        2
+      ],
+      "pickup_tick": 152
+    },
+    {
+      "assigned_tick": 128,
+      "assigned_to": 0,
+      "created": 128,
+      "dropoff": [
+        3,
+        10
+      ],
+      "dropoff_tick": 140,
+      "id": 24,
+      "pickup": [
+        6,
+        7
+      ],
+      "pickup_tick": 133
+    },
+    {
+      "assigned_tick": 168,
+      "assigned_to": 3,
+      "created": 134,
+      "dropoff": [
+        7,
+        12
+      ],
+      "dropoff_tick": 194,
+      "id": 25,
+      "pickup": [
+        10,
+        3
+      ],
+      "pickup_tick": 181
+    },
+    {
+      "assigned_tick": 136,
+      "assigned_to": 2,
+      "created": 135,
+      "dropoff": [
+        3,
+        11
+      ],
+      "dropoff_tick": 161,
+      "id": 26,
+      "pickup": [
+        2,
+        6
+      ],
+      "pickup_tick": 154
+    },
+    {
+      "assigned_tick": 140,
+      "assigned_to": 0,
+      "created": 135,
+      "dropoff": [
+        12,
+        12
+      ],
+      "dropoff_tick": 171,
+      "id": 27,
+      "pickup": [
+        8,
+        1
+      ],
+      "pickup_tick": 155
+    },
+    {
+      "assigned_tick": 164,
+      "assigned_to": 2,
+      "created": 142,
+      "dropoff": [
+        1,
+        12
+      ],
+      "dropoff_tick": 189,
+      "id": 28,
+      "pickup": [
+        5,
+        3
+      ],
+      "pickup_tick": 175
+    },
+    {
+      "assigned_tick": 168,
+      "assigned_to": 1,
+      "created": 144,
+      "dropoff": [
+        4,
+        12
+      ],
+      "dropoff_tick": 203,
+      "id": 29,
+      "pickup": [
+        12,
+        4
+      ],
+      "pickup_tick": 186
+    },
+    {
+      "assigned_tick": 196,
+      "assigned_to": 3,
+      "created": 153,
+      "dropoff": [
+        11,
+        9
+      ],
+      "dropoff_tick": 223,
+      "id": 30,
+      "pickup": [
+        11,
+        1
+      ],
+      "pickup_tick": 212
+    },
+    {
+      "assigned_tick": 172,
+      "assigned_to": 0,
+      "created": 156,
+      "dropoff": [
+        7,
+        9
+      ],
+      "dropoff_tick": 196,
+      "id": 31,
+      "pickup": [
+        6,
+        3
+      ],
+      "pickup_tick": 188
+    },
+    {
+      "assigned_tick": 204,
+      "assigned_to": 1,
+      "created": 156,
+      "dropoff": [
+        12,
+        11
+      ],
+      "dropoff_tick": 231,
+      "id": 32,
+      "pickup": [
+        9,
+        3
+      ],
+      "pickup_tick": 219
+    },
+    {
+      "assigned_tick": 192,
+      "assigned_to": 2,
+      "created": 159,
+      "dropoff": [
+        8,
+        12
+      ],
+      "dropoff_tick": 211,
+      "id": 33,
+      "pickup": [
+        6,
+        7
+      ],
+      "pickup_tick": 203
+    },
+    {
+      "assigned_tick": 224,
+      "assigned_to": 3,
+      "created": 171,
+      "dropoff": [
+        14,
+        10
+      ],
+      "dropoff_tick": 236,
+      "id": 34,
+      "pickup": [
+        13,
+        6
+      ],
+      "pickup_tick": 230
+    },
+    {
+      "assigned_tick": 196,
+      "assigned_to": 0,
+      "created": 174,
+      "dropoff": [
+        13,
+        11
+      ],
+      "dropoff_tick": 222,
+      "id": 35,
+      "pickup": [
+        4,
+        4
+      ],
+      "pickup_tick": 205
+    },
+    {
+      "assigned_tick": 212,
+      "assigned_to": 2,
+      "created": 175,
+      "dropoff": [
+        6,
+        12
+      ],
+      "dropoff_tick": 242,
+      "id": 36,
+      "pickup": [
+        2,
+        3
+      ],
+      "pickup_tick": 228
+    },
+    {
+      "assigned_tick": 232,
+      "assigned_to": 1,
+      "created": 190,
+      "dropoff": [
+        4,
+        9
+      ],
+      "dropoff_tick": 256,
+      "id": 37,
+      "pickup": [
+        11,
+        4
+      ],
+      "pickup_tick": 243
+    },
+    {
+      "assigned_tick": 224,
+      "assigned_to": 0,
+      "created": 197,
+      "dropoff": [
+        9,
+        9
+      ],
+      "dropoff_tick": 254,
+      "id": 38,
+      "pickup": [
+        5,
+        2
+      ],
+      "pickup_tick": 242
+    },
+    {
+      "assigned_tick": 236,
+      "assigned_to": 3,
+      "created": 202,
+      "dropoff": [
+        3,
+        12
+      ],
+      "dropoff_tick": 257,
+      "id": 39,
+      "pickup": [
+        13,
+        7
+      ],
+      "pickup_tick": 241
+    },
+    {
+      "assigned_tick": 244,
+      "assigned_to": 2,
+      "created": 206,
+      "dropoff": [
+        5,
+        12
+      ],
+      "dropoff_tick": 260,
+      "id": 40,
+      "pickup": [
+        5,
+        6
+      ],
+      "pickup_tick": 253
+    },
+    {
+      "assigned_tick": 256,
+      "assigned_to": 0,
+      "created": 218,
+      "dropoff": [
+        11,
+        10
+      ],
+      "dropoff_tick": 287,
+      "id": 41,
+      "pickup": [
+        2,
+        3
+      ],
+      "pickup_tick": 270
+    },
+    {
+      "assigned_tick": 256,
+      "assigned_to": 1,
+      "created": 218,
+      "dropoff": [
+        15,
+        10
+      ],
+      "dropoff_tick": 278,
+      "id": 42,
+      "pickup": [
+        10,
+        5
+      ],
+      "pickup_tick": 267
+    },
+    {
+      "assigned_tick": 260,
+      "assigned_to": 3,
+      "created": 219,
+      "dropoff": [
+        9,
+        12
+      ],
+      "dropoff_tick": 280,
+      "id": 43,
+      "pickup": [
+        10,
+        7
+      ],
+      "pickup_tick": 273
+    },
+    {
+      "assigned_tick": 280,
+      "assigned_to": 1,
+      "created": 219,
+      "dropoff": [
+        14,
+        11
+      ],
+      "dropoff_tick": 300,
+      "id": 44,
+      "pickup": [
+        12,
+        4
+      ],
+      "pickup_tick": 290
+    },
+    {
+      "assigned_tick": 260,
+      "assigned_to": 2,
+      "created": 225,
+      "dropoff": [
+        12,
+        9
+      ],
+      "dropoff_tick": 284,
+      "id": 45,
+      "pickup": [
+        4,
+        4
+      ],
+      "pickup_tick": 270
+    },
+    {
+      "assigned_tick": 284,
+      "assigned_to": 2,
+      "created": 235,
+      "dropoff": [
+        5,
+        9
+      ],
+      "dropoff_tick": 307,
+      "id": 46,
+      "pickup": [
+        5,
+        2
+      ],
+      "pickup_tick": 299
+    },
+    {
+      "assigned_tick": 280,
+      "assigned_to": 3,
+      "created": 250,
+      "dropoff": [
+        6,
+        11
+      ],
+      "dropoff_tick": 296,
+      "id": 47,
+      "pickup": [
+        9,
+        6
+      ],
+      "pickup_tick": 287
+    }
+  ],
+  "timeseries": {},
+  "trace": [],
+  "vehicles": [
+    {
+      "busy": 271,
+      "carrying": null,
+      "cell": [
+        11,
+        10
+      ],
+      "completed": 11,
+      "empty_moves": 121,
+      "handles": 22,
+      "id": 0,
+      "idle": 36,
+      "moves": 249,
+      "queue": [],
+      "schedule_version": 11,
+      "waits": 0,
+      "zone": 0
+    },
+    {
+      "busy": 266,
+      "carrying": null,
+      "cell": [
+        14,
+        11
+      ],
+      "completed": 12,
+      "empty_moves": 111,
+      "handles": 24,
+      "id": 1,
+      "idle": 41,
+      "moves": 238,
+      "queue": [],
+      "schedule_version": 12,
+      "waits": 4,
+      "zone": 1
+    },
+    {
+      "busy": 249,
+      "carrying": null,
+      "cell": [
+        5,
+        9
+      ],
+      "completed": 11,
+      "empty_moves": 120,
+      "handles": 22,
+      "id": 2,
+      "idle": 58,
+      "moves": 226,
+      "queue": [],
+      "schedule_version": 11,
+      "waits": 1,
+      "zone": 0
+    },
+    {
+      "busy": 266,
+      "carrying": null,
+      "cell": [
+        6,
+        11
+      ],
+      "completed": 14,
+      "empty_moves": 118,
+      "handles": 28,
+      "id": 3,
+      "idle": 41,
+      "moves": 238,
+      "queue": [],
+      "schedule_version": 14,
+      "waits": 0,
+      "zone": 1
+    }
+  ]
+}

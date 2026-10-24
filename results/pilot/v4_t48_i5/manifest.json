@@ -1,0 +1,50 @@
+{
+  "config": {
+    "arrival_interval": 5.0,
+    "auction_interval": 4,
+    "bundle_batch": 3,
+    "deadlock_window": 100,
+    "dropoff_ticks": 1,
+    "max_ticks": 1600,
+    "pickup_ticks": 1,
+    "planning_horizon": 192,
+    "queue_max": 3,
+    "total_tasks": 48,
+    "vehicles": 4
+  },
+  "config_fingerprint": "2e513c350aec56a0500f3cfea833b7e363a0754a20670efc4f2fa57f7320109b",
+  "created_at": "2026-10-22T10:22:55.918919+00:00",
+  "fingerprint": "1a7af22aee216b9fec7ca2c6f1fed68f99186719d1d1790c320fb67a83764e9f",
+  "package_versions": {
+    "matplotlib": "3.11.2",
+    "mesa": "3.5.1",
+    "numpy": "2.5.4",
+    "python": "3.13.16",
+    "scipy": "1.18.1",
+    "warehouse-agents-simulation": "0.1.0"
+  },
+  "schema_version": 1,
+  "source_hash": "fd2940590c92a46d7e2b5887702991113d91c0274c7525c655d61e49b0b67aa2",
+  "specification": {
+    "layouts": [
+      "A",
+      "B"
+    ],
+    "replications": 2,
+    "scenarios": [
+      "D0",
+      "D4"
+    ],
+    "seeds": [
+      0,
+      1
+    ],
+    "strategies": [
+      "S1",
+      "S2",
+      "S4",
+      "S8"
+    ],
+    "trace": false
+  }
+}

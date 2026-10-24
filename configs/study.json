@@ -1,0 +1,13 @@
+{
+  "vehicles": 4,
+  "total_tasks": 48,
+  "arrival_interval": 8.0,
+  "max_ticks": 1600,
+  "planning_horizon": 192,
+  "queue_max": 3,
+  "pickup_ticks": 1,
+  "dropoff_ticks": 1,
+  "auction_interval": 4,
+  "bundle_batch": 3,
+  "deadlock_window": 100
+}
