@@ -76,3 +76,17 @@ uv run ruff format --check src tests
 ```
 
 Tests cover all strategies/layouts, forced disruptions, local sensing and clearance, queues and handling, exact metric accounting, deterministic matched scenarios, reservation atomicity and collisions, small-search optimality against BFS, paired statistics, and checkpoint/resume safety.
+
+## Visual demo
+
+Run one simulation interactively and watch AGVs move on the warehouse grid:
+
+```sh
+uv run python demo.py
+```
+
+Edit the constants at the top of `demo.py` to choose a strategy (`S1`–`S10`),
+disruption scenario (`D0`–`D4`), layout (`A` or `B`), seed, and simulation settings.
+The window includes Play/Pause, Step, and Reset controls. This uses the same Mesa
+model as the batch experiments and advances one simulation tick per animation frame;
+it does not change or replace the experiment runner.
